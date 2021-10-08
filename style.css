@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+        list-style-type: none;
+        margin-top: 0%;
+        margin-left: 72%;
+        padding: 0;
+        overflow: hidden;
+  }
+  
+  li {
+        float: left;
+  }
+  
+  li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: rgb(7, 7, 7);
+        font-weight: 600;
+  }
+  
+  li a:hover {
+    background-color: rgb(219, 253, 232);
+  }
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: hotpink;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2% 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( pink, hotpink);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.link-button:hover{
+    font-size: 110%;
+}
+p{
+    color: dimgrey;
+    padding-bottom: 2%;
+}
+section{
+    height: 520px;
+}
+#about-myself{
+    float: left;
+    padding: 15% 0%;
+}
+#latest-work{
+    text-align: center;
+    background-color: rgb(242, 253, 242);
+    
+}
+.work-images{
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    padding: 2% 2%;
+}
+.work-images img{
+    width: 100%;
+}
+#work-first-img{
+    margin-left: 8%;
+}
+#work-first-img{
+    box-shadow: 5px 5px 10px rgb(207, 252, 207);
+    border-radius: 8px;
+    height: 56%;
+}
+#work-second-img{
+    box-shadow: 5px 5px 10px rgb(208, 255, 208);
+    border-radius: 8px;
+    height: 56%;
+}
+#work-third-img{
+    box-shadow: 5px 5px 10px rgb(208, 252, 208);
+    border-radius: 8px;
+    height: 56%;
+}
+.work-inquery{
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 5%;
+    margin: 10% 15%;
+}
+.link-button inquiry{
+    float: left;
+}
+.work-inquery-color{
+    color: white;
+}
+.stay-connected{
+    font-weight: 600;
+    text-align: center;
+}
+.email{
+    text-align: center;
+}
+.email:hover{
+    font-size: 120%;
+}
+.icons-sec{
+    text-align: center;
+}
+.icons{
+    width: 2%;
+    padding-left: 1%;
+}
